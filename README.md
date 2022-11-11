@@ -1,1 +1,1 @@
-# OS-Lab2
+# OS-Lab2 - Pthreads and Semaphores
