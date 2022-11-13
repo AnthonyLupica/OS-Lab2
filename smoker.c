@@ -299,13 +299,13 @@ void *smokerWithTobaccoOne(void *param)
         /* Make a cigarette */
         usleep(rand() % 50000 + 1);
         ++smokeCount;
-        printf("Smoker ONE with INFINITE TOBACCO rolled up blunt number %d\n\n", smokeCount);
+        printf("Smoker ONE with INFINITE TOBACCO rolled up cigarette number %d\n\n", smokeCount);
         
         sem_post(&agentSem);
         
         /* Smoke the cigarette */
         usleep(rand() % 50000 + 1);
-        printf("Smoker ONE with INFINITE TOBACCO is blowing smoke on blunt number %d\n\n", smokeCount);
+        printf("Smoker ONE with INFINITE TOBACCO is blowing smoke on cigarette number %d\n\n", smokeCount);
     }
 
     printf("Smoker ONE with INFINITE TOBACCO got hungry and went home\n\n");
@@ -324,13 +324,13 @@ void *smokerWithTobaccoTwo(void *param)
         /* Make a cigarette */
         usleep(rand() % 50000 + 1);
         ++smokeCount;
-        printf("Smoker TWO with INFINITE TOBACCO rolled up blunt number %d\n\n", smokeCount);
+        printf("Smoker TWO with INFINITE TOBACCO rolled up cigarette number %d\n\n", smokeCount);
         
         sem_post(&agentSem);
         
         /* Smoke the cigarette */
         usleep(rand() % 50000 + 1);
-        printf("Smoker TWO with INFINITE TOBACCO is blowing smoke on blunt number %d\n\n", smokeCount);
+        printf("Smoker TWO with INFINITE TOBACCO is blowing smoke on cigarette number %d\n\n", smokeCount);
     }
 
     printf("Smoker TWO with INFINITE TOBACCO got hungry and started snoring\n\n");
@@ -349,13 +349,13 @@ void *smokerWithPaperOne(void *param)
         /* Make a cigarette */
         usleep(rand() % 50000 + 1);
         ++smokeCount;
-        printf("Smoker ONE with INFINITE PAPER rolled up blunt number %d\n\n", smokeCount);
+        printf("Smoker ONE with INFINITE PAPER rolled up cigarette number %d\n\n", smokeCount);
     
         sem_post(&agentSem);
        
         /* Smoke the cigarette */
         usleep(rand() % 50000 + 1);
-        printf("Smoker ONE with INFINITE PAPER is blowing smoke on blunt number %d\n\n", smokeCount);
+        printf("Smoker ONE with INFINITE PAPER is blowing smoke on cigarette number %d\n\n", smokeCount);
     }
 
     printf("Smoker ONE with INFINITE PAPER got hungry and went to Taco Bell\n\n");
@@ -374,13 +374,13 @@ void *smokerWithPaperTwo(void *param)
         /* Make a cigarette */
         usleep(rand() % 50000 + 1);
         ++smokeCount;
-        printf("Smoker TWO with INFINITE PAPER rolled up blunt number %d\n\n", smokeCount);
+        printf("Smoker TWO with INFINITE PAPER rolled up cigarette number %d\n\n", smokeCount);
     
         sem_post(&agentSem);
        
         /* Smoke the cigarette */
         usleep(rand() % 50000 + 1);
-        printf("Smoker TWO with INFINITE PAPER is blowing smoke on blunt number %d\n\n", smokeCount);
+        printf("Smoker TWO with INFINITE PAPER is blowing smoke on cigarette number %d\n\n", smokeCount);
     }
 
     printf("Smoker TWO with INFINITE PAPER got hungry and started convulsing\n\n");
@@ -399,13 +399,13 @@ void *smokerWithMatchOne(void *param)
         /* Make a cigarette */
         usleep(rand() % 50000 + 1);
         ++smokeCount;
-        printf("Smoker ONE with INFINITE MATCHES rolled up blunt number %d\n\n", smokeCount);
+        printf("Smoker ONE with INFINITE MATCHES rolled up cigarette number %d\n\n", smokeCount);
         
         sem_post(&agentSem);
 
         /* Smoke the cigarette */
         usleep(rand() % 50000 + 1);
-        printf("Smoker ONE with INFINITE MATCHES is blowing smoke on blunt number %d\n\n", smokeCount);
+        printf("Smoker ONE with INFINITE MATCHES is blowing smoke on cigarette number %d\n\n", smokeCount);
     }
 
     printf("Smoker ONE with INFINITE MATCHES got hungry and started eating the rolling paper\n\n");
@@ -424,13 +424,13 @@ void *smokerWithMatchTwo(void *param)
         /* Make a cigarette */
         usleep(rand() % 50000 + 1);
         ++smokeCount;
-        printf("Smoker TWO with INFINITE MATCHES rolled up blunt number %d\n\n", smokeCount);
+        printf("Smoker TWO with INFINITE MATCHES rolled up cigarette number %d\n\n", smokeCount);
         
         sem_post(&agentSem);
 
         /* Smoke the cigarette */
         usleep(rand() % 50000 + 1);
-        printf("Smoker TWO with INFINITE MATCHES is blowing smoke on blunt number %d\n\n", smokeCount);
+        printf("Smoker TWO with INFINITE MATCHES is blowing smoke on cigarette number %d\n\n", smokeCount);
     }
 
     printf("Smoker TWO with INFINITE MATCHES got hungry and ate a granola bar\n\n");
